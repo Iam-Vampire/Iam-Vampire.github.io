@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>My New Hugo Site</title>
+    <title>印象本蓝的部落格</title>
     <link>http://Iam-Vampire.github.io/</link>
-    <description>Recent content on My New Hugo Site</description>
+    <description>Recent content on 印象本蓝的部落格</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
+    <language>zh-CN</language>
     <lastBuildDate>Thu, 02 Jan 2020 00:24:46 +0800</lastBuildDate>
     
 	<atom:link href="http://Iam-Vampire.github.io/index.xml" rel="self" type="application/rss+xml" />
@@ -32,6 +32,15 @@ docker container 的数据管理 docker 为我们提供了三种不同的方式�
  数据卷可以在容器之间共享和重用 对数据卷的修改会立马生效 对数据卷的更新，不会影响镜像 卷会一直存在，直到没有容器使用  *数据卷的使用，类似于 Linux 下对目录或文件进行 mount。
 使用方式 volume 在 docker 中被推荐为首选方式，它与 bind mount 相比，有以下优点：
  与 bind mount 相比，volume 更容易备份或迁移。 可以使用 Docker CLI 命令或 Docker API 来管理。 volume 在 Linux 和 Windows 容器上都能工作。 volume 可以在多个容器之间更安全的共享。 volume 驱动程序允许你在远程主机或云上提供存储、加密或其他功能。 新 volume 的内容可以由容器预填充。  -v/-mount 标志 最初，-v 和 -volume 用于独立的容器，--mount 用于 swarm server。但 docker 17.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>http://Iam-Vampire.github.io/archives/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://Iam-Vampire.github.io/archives/</guid>
+      <description>title: &amp;ldquo;归档&amp;rdquo; description: 我是一个粉刷匠，粉刷本领强.. type: archives</description>
     </item>
     
   </channel>
