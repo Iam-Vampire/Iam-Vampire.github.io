@@ -3,31 +3,58 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>http://Iam-Vampire.github.io/post/docker-container-data-manager/</loc>
-    <lastmod>2020-01-02T00:24:46+08:00</lastmod>
+    <loc>http://Iam-Vampire.github.io/categories/</loc>
+    <lastmod>2020-01-03T23:01:23+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://Iam-Vampire.github.io/tags/devops/</loc>
+    <lastmod>2020-01-03T23:01:23+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://Iam-Vampire.github.io/tags/docker/</loc>
+    <lastmod>2020-01-03T23:01:23+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://Iam-Vampire.github.io/categories/index/</loc>
+    <lastmod>2020-01-03T23:01:23+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://Iam-Vampire.github.io/tags/kubernetes/</loc>
+    <lastmod>2020-01-03T23:01:23+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://Iam-Vampire.github.io/post/kubernetes/</loc>
+    <lastmod>2020-01-03T23:01:23+08:00</lastmod>
   </url>
   
   <url>
     <loc>http://Iam-Vampire.github.io/post/</loc>
-    <lastmod>2020-01-02T00:24:46+08:00</lastmod>
+    <lastmod>2020-01-03T23:01:23+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://Iam-Vampire.github.io/tags/</loc>
+    <lastmod>2020-01-03T23:01:23+08:00</lastmod>
   </url>
   
   <url>
     <loc>http://Iam-Vampire.github.io/</loc>
+    <lastmod>2020-01-03T23:01:23+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://Iam-Vampire.github.io/post/docker-container-data-manager/</loc>
     <lastmod>2020-01-02T00:24:46+08:00</lastmod>
   </url>
   
   <url>
     <loc>http://Iam-Vampire.github.io/archives/</loc>
     <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>http://Iam-Vampire.github.io/categories/</loc>
-  </url>
-  
-  <url>
-    <loc>http://Iam-Vampire.github.io/tags/</loc>
   </url>
   
 </urlset>

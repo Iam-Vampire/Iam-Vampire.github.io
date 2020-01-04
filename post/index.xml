@@ -6,10 +6,19 @@
     <description>Recent content in Posts on 印象本蓝的部落格</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-CN</language>
-    <lastBuildDate>Thu, 02 Jan 2020 00:24:46 +0800</lastBuildDate>
+    <lastBuildDate>Sat, 04 Jan 2020 23:01:23 +0800</lastBuildDate>
     
 	<atom:link href="http://Iam-Vampire.github.io/post/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Kubernetes</title>
+      <link>http://Iam-Vampire.github.io/post/kubernetes/</link>
+      <pubDate>Sat, 04 Jan 2020 23:01:23 +0800</pubDate>
+      
+      <guid>http://Iam-Vampire.github.io/post/kubernetes/</guid>
+      <description>Kubernetes 是用于自动部署，扩展和管理容器化应用程序的开源系统。 它将组成应用程序的容器组合成逻辑单元，以便于管理和服务发现。Kubernetes 源自Google 15 年生产环境的运维经验，同时凝聚了社区的最佳创意和实践。</description>
+    </item>
     
     <item>
       <title>docker container 的数据管理</title>
