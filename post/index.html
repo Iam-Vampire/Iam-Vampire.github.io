@@ -87,12 +87,12 @@
         <div class="post-meta">
             <span>|</span>
             
-            <span class="meta-category"><a href='http://Iam-Vampire.github.io/categories/index'>index</a></span>
+            <span class="meta-category"><a href='http://Iam-Vampire.github.io/categories/%E6%8A%80%E6%9C%AF'>技术</a></span>
             
         </div>
         
         <div class="post-content">
-            Kubernetes 是用于自动部署，扩展和管理容器化应用程序的开源系统。 它将组成应用程序的容器组合成逻辑单元，以便于管理和服务发现。Kubernetes 源自Google 15 年生产环境的运维经验，同时凝聚了社区的最佳创意和实践。……
+            <p>Kubernetes 是用于自动部署，扩展和管理容器化应用程序的开源系统。</p>……
         </div>
         <p class="readmore"><a href="http://Iam-Vampire.github.io/post/kubernetes/">阅读全文</a></p>
     </article>
@@ -109,22 +109,16 @@
             2020年1月2日
         </date>
         
+        <div class="post-meta">
+            <span>|</span>
+            
+            <span class="meta-category"><a href='http://Iam-Vampire.github.io/categories/%E6%8A%80%E6%9C%AF'>技术</a></span>
+            
+        </div>
+        
         <div class="post-content">
-            [TOC]
-docker container 的数据管理 docker 为我们提供了三种不同的方式将数据挂载到容器中：volume、bind mount、tmpfs。
-按照Docker官方文档的说明，有两种形式 Manage data in containers
-即：数据卷（Data volumes）数据卷容器（Data volume containers）
-通常情况下，我们是不会在容器中存储数据的。 我们会挂载一个主机的文件夹作为数据卷到容器中去，该数据卷可以被许多需要访问的容器访问得到。 这样做的好处是保证了数据的持久化，也增强来应用的可移植性（不改变容器配置）。
-数据卷优点：
-如果现在的容器挂掉了， 那么数据都会丢失， 如果挂载到了宿主机，那么在重新启动，数据都在。
-同时多个容器共享一个配置，多个容器之间的数据还是同步。也就是，一些数据可以统一进行修改处理 。
-应用场景：
- 在多个容器之间共享数据，多个容器可以同时以只读或者读写的方式挂载同一个数据卷，从而共享数据卷中的数据 当宿主机不能保证一定存在某一个目录或一些固定的文件路径时，使用数据卷可以规避这种限制带来的问题。（因为是直接由容器运行时创建，或者命令创建，使用时按照id和名字使用，空间架构由docker掌控，不用考虑宿主机目录什么的路径问题。） 当想把容器中的数据存储在宿主机之外的地方时，比如远程主机上和云存储上 当你需要把容器数据在不同宿主机之间备份、恢复或迁移时，数据卷是很好的选择。停止容器，备份卷的目录如/var/lib/docker/volumes/。  数据覆盖问题：
- 如果将空文件或目录挂载到容器，容器中的该目录有文件，那么，这些文件将会被复制到主机上的目录中。 如果将非空的文件或目录挂载到容器，容器中该目录有文件，那么，容器中的文件将会被隐藏。  这两个规则都非常重要，灵活利用第一个规则可以帮助我们初始化数据卷中的内容。 掌握第二个规则可以保证挂载数据卷后的数据总是你期望的结果。
-数据卷是一个可以供一个或多个使用的特殊目录，它绕过UFS，可以提供很多有用的特性
- 数据卷可以在容器之间共享和重用 对数据卷的修改会立马生效 对数据卷的更新，不会影响镜像 卷会一直存在，直到没有容器使用  *数据卷的使用，类似于 Linux 下对目录或文件进行 mount。
-使用方式 volume 在 docker 中被推荐为首选方式，它与 bind mount 相比，有以下优点：
- 与 bind mount 相比，volume 更容易备份或迁移。 可以使用 Docker CLI 命令或 Docker API 来管理。 volume 在 Linux 和 Windows 容器上都能工作。 volume 可以在多个容器之间更安全的共享。 volume 驱动程序允许你在远程主机或云上提供存储、加密或其他功能。 新 volume 的内容可以由容器预填充。  -v/-mount 标志 最初，-v 和 -volume 用于独立的容器，--mount 用于 swarm server。但 docker 17.……
+            <h3 id="docker-container-">docker container 的数据管理</h3>
+<p>docker 为我们提供了三种不同的方式将数据挂载到容器中：<code>volume</code>、<code>bind mount</code>、<code>tmpfs</code>。</p>……
         </div>
         <p class="readmore"><a href="http://Iam-Vampire.github.io/post/docker-container-data-manager/">阅读全文</a></p>
     </article>
@@ -171,7 +165,7 @@ docker container 的数据管理 docker 为我们提供了三种不同的方式�
         <h3 class="widget-title">分类</h3>
 <ul class="widget-list">
     
-    <li><a href="http://Iam-Vampire.github.io/categories/index/">index (1)</a></li>
+    <li><a href="http://Iam-Vampire.github.io/categories/%E6%8A%80%E6%9C%AF/">技术 (2)</a></li>
     
 </ul>
     </section>

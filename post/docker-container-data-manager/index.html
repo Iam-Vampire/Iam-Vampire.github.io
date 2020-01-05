@@ -10,15 +10,15 @@
     <meta property="og:title" content="docker container 的数据管理 - 印象本蓝的部落格">
     <meta property="og:type" content="article">
         
-    <meta property="article:published_time" content='2020-01-02T00:24:46&#43;08:00'>
+    <meta property="article:published_time" content='2020-01-02T23:01:23&#43;08:00'>
         
         
-    <meta property="article:modified_time" content='2020-01-02T00:24:46&#43;08:00'>
+    <meta property="article:modified_time" content='2020-01-02T23:01:23&#43;08:00'>
         
     <meta name="Keywords" content="Devops,Kubernetes,docker,golang">
     <meta name="description" content="docker container 的数据管理">
+        <meta name="author" content="Li">
         
-    <meta name="author" content="印象本蓝">
     <meta property="og:url" content="http://Iam-Vampire.github.io/post/docker-container-data-manager/">
     <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
 
@@ -84,11 +84,17 @@
             2020年1月2日
         </date>
         
+        <div class="post-meta">
+            <span>|</span>
+            
+            <span class="meta-category"><a href='http://Iam-Vampire.github.io/categories/%E6%8A%80%E6%9C%AF'>技术</a></span>
+            
+        </div>
+        
         
         
         <div class="post-content">
-            <p>[TOC]</p>
-<h3 id="docker-container-">docker container 的数据管理</h3>
+            <h3 id="docker-container-">docker container 的数据管理</h3>
 <p>docker 为我们提供了三种不同的方式将数据挂载到容器中：<code>volume</code>、<code>bind mount</code>、<code>tmpfs</code>。</p>
 <p>按照Docker官方文档的说明，有两种形式 <a href="https://docs.docker.com/storage/volumes/">Manage data in containers</a></p>
 <p>即：数据卷（Data volumes）数据卷容器（Data volume containers）</p>
@@ -362,7 +368,13 @@ docker run -dit --rm -p 1992:80 --name mynginx -v $WORKDIR:/usr/local/nginx/html
 
         <div class="post-meta meta-tags">
             
-            没有标签
+            <ul class="clearfix">
+                
+                <li><a href='http://Iam-Vampire.github.io/tags/devops'>Devops</a></li>
+                
+                <li><a href='http://Iam-Vampire.github.io/tags/docker'>Docker</a></li>
+                
+            </ul>
             
         </div>
     </article>
@@ -406,7 +418,7 @@ docker run -dit --rm -p 1992:80 --name mynginx -v $WORKDIR:/usr/local/nginx/html
         <h3 class="widget-title">分类</h3>
 <ul class="widget-list">
     
-    <li><a href="http://Iam-Vampire.github.io/categories/index/">index (1)</a></li>
+    <li><a href="http://Iam-Vampire.github.io/categories/%E6%8A%80%E6%9C%AF/">技术 (2)</a></li>
     
 </ul>
     </section>
